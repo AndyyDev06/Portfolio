@@ -2,14 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #f8f8f2; /* Dracula theme foreground color */
+    background-color: #282a36; /* Dracula theme background color */
     transition: all 0.3s ease;
 }
 
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
+    background-color: #44475a; /* Dracula theme selection background */
+    color: #bd93f9; /* Dracula theme purple */
     text-align: center;
     padding: 2em 0;
     position: relative;
@@ -30,7 +30,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #bd93f9; /* Dracula theme purple */
     text-decoration: none;
     font-weight: 700;
 }
@@ -54,12 +54,12 @@ header p {
 
 .section {
     padding: 4em 2em;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #44475a; /* Dracula theme selection background */
     margin: 2em auto;
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 80%;
-    color: #fff;
+    color: #f8f8f2; /* Dracula theme foreground color */
 }
 
 .section h2 {
@@ -67,19 +67,20 @@ header p {
     margin-top: 0;
     font-size: 2em;
     font-weight: 400;
+    color: #bd93f9; /* Dracula theme purple */
 }
 
 .project {
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid #bd93f9; /* Dracula theme purple */
     padding: 1em;
     margin: 1em 0;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #6272a4; /* Dracula theme current line */
 }
 
 footer {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #fff;
+    background-color: #44475a; /* Dracula theme selection background */
+    color: #bd93f9; /* Dracula theme purple */
     text-align: center;
     padding: 1em 0;
     position: relative;
@@ -104,25 +105,25 @@ form input, form textarea, form button {
     margin-top: 0.5em;
     padding: 0.5em;
     font-size: 1em;
-    border: 1px solid #ddd;
+    border: 1px solid #6272a4; /* Dracula theme current line */
     border-radius: 5px;
 }
 
 form input, form textarea {
-    background-color: #fff;
-    color: #333;
+    background-color: #282a36; /* Dracula theme background */
+    color: #f8f8f2; /* Dracula theme foreground color */
 }
 
 form button {
-    background: #fff;
-    color: #667eea;
+    background-color: #bd93f9; /* Dracula theme purple */
+    color: #f8f8f2; /* Dracula theme foreground color */
     border: none;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 form button:hover {
-    background: #f0f0f0;
+    background-color: #ff79c6; /* Dracula theme pink */
 }
 
 @media (max-width: 600px) {
@@ -150,4 +151,36 @@ form button:hover {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.2em;
+}
+
+.code {
+    font-weight: bold;
+}
+
+.even-word {
+    color: #ff79c6; /* Dracula theme pink */
+}
+
+.odd-word {
+    color: #50fa7b; /* Dracula theme green */
+}
+
+.color-1 {
+    color: #ff79c6; /* Dracula theme pink */
+}
+
+.color-2 {
+    color: #50fa7b; /* Dracula theme green */
+}
+
+.color-3 {
+    color: #f1fa8c; /* Dracula theme yellow */
+}
+
+.color-4 {
+    color: #bd93f9; /* Dracula theme purple */
+}
+
+.color-5 {
+    color: #8be9fd; /* Dracula theme cyan */
 }
